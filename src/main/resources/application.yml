@@ -1,0 +1,14 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /fabricante-back
+
+spring:
+  application:
+    name: 'fabricante-back'
+  data:
+    mongodb:
+      database: fabricante-back
+      port: 27017
+      host: localhost
+
